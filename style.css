@@ -1,0 +1,35 @@
+.start{
+  background: yellow;
+  border: 1px solid;
+  color: black;
+  padding: 8px 15px;
+  border-radius: 3px;
+  cursor: pointer;
+}
+.start:hover{
+  background-color: black;
+  color: white;
+  border-radius: 3px;
+}
+.grid {
+  width: 200px;
+  height: 200px;
+  /* margin: 0 auto; */
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  border-style: solid;
+}
+
+.grid div {
+  width: 20px;
+  height: 20px;
+}
+
+.snake {
+  background-color: blue;
+}
+
+.apple {
+  background-color: purple;
+}
